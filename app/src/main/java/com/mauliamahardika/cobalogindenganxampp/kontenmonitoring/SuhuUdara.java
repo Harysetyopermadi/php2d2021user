@@ -70,7 +70,9 @@ public class SuhuUdara extends AppCompatActivity {
 
 
         //reload untuk komponen
-        Timer timer=new Timer();
+        bacasuhu();
+        /*Timer timer=new Timer();
+
         TimerTask tasknew=new TimerTask() {
             @Override
             public void run() {
@@ -81,7 +83,7 @@ public class SuhuUdara extends AppCompatActivity {
                     }
                 });
             }
-        };timer.scheduleAtFixedRate(tasknew,0,100000);
+        };timer.scheduleAtFixedRate(tasknew,0,100000);*/
 
 
         back=findViewById(R.id.backarrow);

@@ -117,7 +117,10 @@ public class Nutrisi extends AppCompatActivity {
         //warna status bar
         window.setStatusBarColor(ContextCompat.getColor(this, R.color.hijau_tua));
         //reload untuk komponen
-        Timer timer=new Timer();
+
+        bacanutrisi();
+        outmesin();
+        /*Timer timer=new Timer();
         TimerTask tasknew=new TimerTask() {
             @Override
             public void run() {
@@ -130,7 +133,7 @@ public class Nutrisi extends AppCompatActivity {
                 });
 
             }
-        };timer.scheduleAtFixedRate(tasknew,0,100000);
+        };timer.scheduleAtFixedRate(tasknew,0,100000);*/
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override

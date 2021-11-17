@@ -54,7 +54,8 @@ public class KolamIkan extends AppCompatActivity {
 
         back=findViewById(R.id.backarrow);
         //reload untuk komponen
-        Timer timer=new Timer();
+        bacavolumepakan();
+        /*Timer timer=new Timer();
         TimerTask tasknew=new TimerTask() {
             @Override
             public void run() {
@@ -66,7 +67,7 @@ public class KolamIkan extends AppCompatActivity {
                 });
 
             }
-        };timer.scheduleAtFixedRate(tasknew,0,100000);
+        };timer.scheduleAtFixedRate(tasknew,0,100000);*/
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
