@@ -20,6 +20,8 @@ public class SessionManager {
   //  public static final String EMAIL = "EMAIL";
     public static final String ID = "ID";
 
+
+
     public SessionManager(Context context) {
         this.context = context;
         sharedPreferences = context.getSharedPreferences(PREF_NAME, PRIVATE_MODE);
